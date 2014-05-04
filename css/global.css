@@ -1,0 +1,228 @@
+/*===================================
+Managed Ads Test A
+=====================================
+
+=============REFERENCE===============
+1= LAYOUT
+2= TYPOGRAPHY
+3= SECTION: YOUR ADS
+*/
+
+
+/*=========================
+1= LAYOUT
+==========================*/
+#my-sample {
+    background: #fff;
+}
+.headerBg{
+    background: #e2f0bb;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 145px;
+	z-index: -1;
+}
+.headerTopBg{
+    background: #ffffdd;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #99cc66;
+}
+#wrapper {
+    width:950px;
+    margin:0 auto;
+}
+#header {
+    padding-bottom:30px;
+    margin-bottom:22px;
+}
+#brand {
+    display:block;
+    width:99px;
+    height:107px;
+    margin:4px 0 0 30px;
+	color:#ffffdd;
+}
+#brand img{
+	font-size:1px;
+	color:#ffffdd;
+}
+#main {
+    padding: 24px 10px 40px 20px;
+}
+.hidden {
+    display:none!important;
+}
+.clear {
+    clear:both;
+}
+.no-bg {
+    background-image:none!important;
+}
+.no-bborder {
+    border-bottom:0!important;
+}
+.no-rborder {
+    border-right:0!important;
+}
+.inv{
+	border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+ 
+/*=========================
+2= TYPOGRAPHY
+==========================*/
+#my-sample h1 {
+    padding:0;
+	margin:0;
+}
+#my-sample h2 {
+    font:2.4em/1.0em Verdana, Arial, Helvetica, sans-serif;
+    color:black;
+    padding:0 0 19px 30px;
+    border-bottom:solid 1px #ccc;
+}
+.modified {
+    font-size:.916em;
+}
+
+/*=========================
+3= SECTION: YOUR ADS
+==========================*/
+/*==== TABLE ====*/
+#your-ads {
+    border:solid 10px #f1f1f1;
+    font-size:1.2em; 
+	padding:12px 8px 45px;
+}
+#your-ads table {
+    width:880px;
+    position:relative;
+}
+#your-ads tr {
+    border-bottom:dashed 1px #ccc;
+}
+
+#your-ads thead th, 
+#your-ads thead td {
+    background-color:#fff;
+    vertical-align:top;
+}
+#your-ads th, 
+#your-ads td {
+    text-align:center;
+    vertical-align:middle;
+    padding:11px 4px
+}
+
+#col_featured-ad,
+.col_featured-ad {
+    background-color:#ffd;
+    width:32px;
+}
+#col_ad-options,
+.col_ad-options {
+    background-color:#ffffc0;
+    width:62px;
+}
+
+#your-ads td.select-advert {
+    width:372px;
+}
+#your-ads th.views {
+    width:82px;
+}
+#your-ads th.modified {
+    width:72px;
+}
+#your-ads th.featured-ad {
+    width:112px;
+}
+#your-ads th.urgent {
+    width:62px;
+}
+#your-ads th.homepage-spotlight {
+    width:62px;
+}
+#your-ads th.bump {
+    width:62px;
+}
+
+#your-ads th {
+    font-weight:bold;
+}
+#your-ads th.subhead {
+    font-weight:normal!important;
+    padding:0;
+}
+#your-ads th.subhead .positioned {
+    position:relative;
+    top:-22px;
+}
+.advert-summary img {
+    float:left;
+    margin:0 10px 0 0;
+	font-size: 1px;
+	color: #fff;
+}
+.advert-summary h3 {
+    float:left;
+    width:200px;
+    text-align:left;
+}
+.advert-summary ul {
+    float:left;
+    width:200px;
+	padding-top:4px;
+}
+.advert-summary li {
+    float:left;
+    padding-right:5px;
+    margin-right:5px;
+    color:#00547e;
+	border-right: 1px solid #8f8f8f;
+	line-height: 0.9;
+}
+.advert-summary li a {
+    color:#00547e;
+    text-decoration:none;
+}
+.advert-summary li a:hover {
+    text-decoration:underline;
+}
+.ad-status {
+    font-weight:bold;
+    color:#6bae48;
+}
+
+/*==== FORM ELEMENTS ====*/
+#your-ads label {
+    display:block;
+    margin-top:5px;
+}
+
+#your-ads input[type=checkbox]{
+	cursor: pointer;
+}
+
+/*==== ORDER TOTAL ====*/
+#your-ads .running-total-container{
+    text-align:right;
+    font-size:1.4em;
+}
+#your-ads .running-total-container{
+    text-align:right;
+    font-weight:bold;
+}
